@@ -1,0 +1,133 @@
+body{
+    font-family: "Montserrat", sans-serif;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+.icons button{
+    background-color: transparent;
+    border: none;
+}
+.navbar-nav .nav-item a{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: black !important;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+.navbar-brand{
+    font-weight: 400;
+    font-size: 40px !important;
+    line-height: 49px;
+    margin-left: 40px;
+    color: black;
+}
+.navbarrr{
+    display: flex;
+    justify-content: space-between;
+}
+.navbaritems{
+    display: flex;
+    align-items: center !important;
+    justify-content: center;
+}
+.home .firstp{
+    padding-top: 60px;
+
+}
+.home div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.home div button{
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 20px;
+    line-height: 24px;
+    border: none;
+}
+
+.home p{
+    padding-top: 20px;
+    text-align: center;
+    font-weight: 500 !important;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Montserrat", sans-serif;
+    color: black;
+}
+.home h1{
+    text-align: center;
+    font-weight: 700 !important;
+    font-size: 48px;
+    line-height: 59px;
+    font-family: "Montserrat", sans-serif;
+    color: black;
+}
+
+
+.div1{
+    flex-direction: column;
+    background-position: top;
+    object-fit: contain;
+
+    background-image: url('https://s3-alpha-sig.figma.com/img/c9d7/9ff0/2b4e3e6dcd4e63d981ceebecdfb9f1c0?Expires=1718582400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=i4~rt5BogatBme3tDNZN9JFqt1eFaRHGpNQ2Ai-xfdQUpBGI2Xj6vPMoarYb~b3HALqphtq5c8W87GKcTTmIvhH6Zg-OzBZk-L5j783e~tJ~Zc2IF~zeLUukEGd8jfwiQSnIedq9UVC4mnHGbuGilBHeb7VwTgd6qLc97XCYI2T9oOxVY0QKA~ndhASzcbN8s72L9R0QcmudDZ~XdoqwvW45BA8CuFpdXf3Mmk5C70hupvkM~0i3GrbrUSOpBzpkT1tvJzMEMZxe90GX3t0qDwy07tL-j2sztlZ37QjdIlwF0xr-BT222ZJBfcFb99i92dBEvVQsQKMaAEk8aYjkEw__');
+}
+.div1 h5{
+    padding: 0px;
+    /* margin-top: 90px;
+    margin-right: 300px; */
+    font-weight: 700;
+    color: white;
+    font-size: 36px;
+    line-height: 43px;
+    font-family: "Montserrat", sans-serif;
+    text-align: start;
+}
+.div1 p{
+
+    padding: 0%;
+    text-align: start;
+    color: white;
+}
+.div2{
+    background-position: top;
+    padding: 0px;
+    /* margin-top: 90px;
+    margin-right: 300px; */
+    font-weight: 700;
+    color: white;
+    font-size: 36px;
+    line-height: 43px;
+    font-family: "Montserrat", sans-serif;
+    text-align: start;
+    object-fit: contain;
+
+    background-position: center;
+    background-image: url('https://s3-alpha-sig.figma.com/img/0a0e/8d76/3952bbcba8a93f0999df457bce601942?Expires=1718582400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=oGyibQnR7UHbk5xmSgI0SX95hhbu5WUE7tvo4-4mOtBz5IvLUgd3Tt866KxsffmpbOQFeM-sV5II7zchBEThT75T9S0kAJ0-JmSjYO7pK1xr3RSfV47xnHC27wF23SeYJ2EGfoWcGfedTExmmINrRHqjxPCQu5fueKy3t-BL20aFzWuT-K3nBZoBDiM139r5psDrBNQJ~-Jpt1ZC83sGacoDGYj5QU7-TjNslgWGFl9g64moMdnDISt0XDkeoEpHBc0arZz5XmkthMNKlgyz7Q6yUX831KSD5KRjsCeUIP~exdDV82wZyTNW~5FJiuf2kYFcUUgsZMnm~IS4iJiSJA__');
+}
+.div3{
+    background-position: top;
+    background-image: url('https://s3-alpha-sig.figma.com/img/844f/fbd5/25cb0a88fadebc90d43146edec42cef9?Expires=1718582400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ZDb6z00hX9INDORCq4QinRuCP-6Mm6nC~eKWNYdkMKQV3G4DfLvN-Zrtq3pgTRM8~4Qo1JocFP7ElUbyI08NwR2vzGgrTL6M7ezP7c6Do-eUy7Q9UL4kHczXpuKMSu0TG0kzne9vHC6nLzgoM1L1Eqcght3FNkfaiAoQEVGOwUDddwpbsvLSRCdJLne4N0z1CM3LDQsO8AtXLcrOAxdUc4wxT0LE6SWtiz0Mdf-Air2daU9aplHtJKUeOycKXtYa6-4~FGEPhcjlG2ZQnMMxxiTCtM3B~kqDJ4aUs-4kQaObLk9gDYOBdxJwu4BYj3-taEJUEbW5uo~SwPbAmH8XDw__');
+}
+
+.div4{
+    background-image: url('https://s3-alpha-sig.figma.com/img/b6fc/2a16/bbe38c16145694cba4ecc2dd516fe9d0?Expires=1718582400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=fiCTF7A7d1T2x96W3G5AJtGFNNzFkn4b4P54Yfb8NlQNyDHFNJ3fZmPxiviGhfVZUqaOzpyqOuM67hr4SSkw4g8CUynj7EQ3wHH1E9y4b7SfIAKye2l8Fg0ErF02qGS7EKpsWEnQDwqK4DYOzicgky6dbgSN~zmClfeMyMUbx4DYOOaPiagJjzayQAFoUl2oAjfPVpcGVSJr6OAkeaA0ckh8HFzlpgyic1UxH~uHCpQ94v535lOSa9wDFXvwAx-OgLTwnFp4gsVvPfi75ANZEMich4mYSMjbKPFnf0~9VzJ99S1CM8285f2g1z8zSuihwUJHBq4uNdQuLfwSwTnqqw__');
+
+}
+.cardd img{
+    object-fit: contain;
+    height: 180px;
+}
+
